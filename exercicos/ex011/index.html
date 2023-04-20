@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+    <p>Erro comum que pode acontecer sem perceber eh que tem que ser do menor para o maior o tamanho em pixels</p>
+    <picture>
+        <source media="(max-width: 710px)" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem-flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Aprendendo a reproduzir áudio no html</p>
+    <audio src="midias/midia1.mp3" preload="auto" controls loop></audio>
+</body>
+</html>

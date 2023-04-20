@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    background-color: aqua;
+    margin: 8px;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px #F98371;
+    color: #1C0423;
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav {
+   background-color: #1C0423;
+   padding: 0.3em;
+   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.438);
+   border-radius: 0.2em;
+}
+nav > a {
+    padding: 0.03em;
+    margin-right: 5em;
+
+}
+
+
+main {
+    background-color: #FDF5FF;
+    padding: 10px;
+    margin: 5px 0px;
+    border-radius: 5px 5px;
+    box-shadow: 0.05em 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.493);
+}
+
+article {
+    height: 11em;
+    width: 50em;
+    background-color: #f8e3fd;
+    border: 1px ridge #F98371;
+    border-radius: 0.5em;
+    padding: 5px;
+    box-shadow: 0.05em 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.466);
+}
+
+article > aside {
+    background-color: #F98371;
+    color: black;
+    width: max-content;
+    margin: 1px 0px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 0.4em;
+    margin: 5px 0px ;
+
+}
+
+footer > p {
+    margin: 0;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 50%;
+}
